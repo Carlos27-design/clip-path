@@ -1,0 +1,8 @@
+img {
+  width: 250px;
+  height: 250px;
+  /*circle hace que el elemento se comporte como un circulo esta funcion permite pasarle un solo parametro*/
+  /*polygon hace que elemento se convierta en un poligono*/
+  /*ellipse me permite hacer un recorte redondeado que empieza en un punto hasta otro punto (valor horizontal, valor vertical)*/
+  clip-path: ellipse(100px 130px at 50% 0%);
+}
